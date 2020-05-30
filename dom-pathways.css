@@ -73,7 +73,8 @@ p {
 
 .content-left {
 	float: left;
-	padding: 50px 20px 50px 0px;
+	padding-top: 40px;
+	padding-right: 20px;
 }
 
 .text-content {
@@ -81,9 +82,14 @@ p {
 	min-width: 400px;
 }
 
+.text-content h1 {
+	margin-bottom: 5px;
+}
+
 .content-right {
 	float: right;
-	padding: 50px 0px 50px 20px;
+	padding-top: 40px;
+	padding-left: 20px;
 }
 
 .splach-left h1 {
@@ -98,13 +104,13 @@ p {
 	float: right;
 	height: 300px;
 	border: none;
-	padding: 0px 0px 50px 20px;
+	padding-left: 20px;
 }
 
 #subject-hb {
 	float: left;
 	height: 300px;
 	border: none;
-	padding: 0px 20px 50px 0px;
+	padding-right: 20px;
 }
 
