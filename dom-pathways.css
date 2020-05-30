@@ -46,12 +46,17 @@ p {
 	z-index: 1;
 }
 
+
 .main {
 	display: block;
-	max-width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 120px;
+	margin-top: 110px;
+}
+
+.splash-frame {
+	display: block;
+	margin-top: 110px;
+	width: 100%;
+	height: calc(var(--screenH) - 110px);
 }
 
 .video-window {
@@ -61,7 +66,6 @@ p {
 .splash-content {
 	display: flex;
 	flex-direction: column;
-	margin-top: 120px;
 }
 
 .splash-article {
