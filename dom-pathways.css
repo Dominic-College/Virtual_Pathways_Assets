@@ -55,6 +55,7 @@ p {
 
 .video-window {
 	width: 450px;
+	z-index: -1;
 }
 
 .splash-content {
