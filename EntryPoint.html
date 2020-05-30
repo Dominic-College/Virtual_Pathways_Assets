@@ -35,20 +35,28 @@ function includeHTML() {
   }
 };
 </script>
+	<nav>
+		<div class="splash-dropdown-nav">
+			<a href="">Home</a>
+			<div>
+			</div>
+		</div>
+	</nav>
 <body>
 	<header >
 		<div class="dom-header">
 			<img id="head01" src="Images/College_Logo_Header.png" alt="">
 		</div>
 	</header>
+	
 	<section>
-		<div w3-include-html="Welcome.html"></div>
+		<embed height="700px" width="100%" src="Welcome.html" type="">
+	<!-- <div w3-include-html="Welcome.html"></div> -->
 		
+	</section>		
 <script>
 includeHTML();
 </script>
-
-	</section>
 
 </body>
 </html>
