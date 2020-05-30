@@ -56,7 +56,8 @@ p {
 	display: block;
 	margin-top: 110px;
 	width: 100%;
-	height: calc(var(--screenH) - 110px);
+/*	height: calc(var(--screenH) - 110px);*/
+	height: calc(100VH - 110px);
 }
 
 .video-window {
