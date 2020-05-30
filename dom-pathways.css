@@ -46,6 +46,7 @@ p {
 }
 
 .main {
+	display: block;
 	max-width: 90%;
 	margin-left: auto;
 	margin-right: auto;
@@ -67,7 +68,6 @@ p {
 	clear: none;
 	margin: 20px;
 	min-height: 350px;
-	overflow: auto;
 }
 
 .content-left {
@@ -75,21 +75,17 @@ p {
 	padding: 50px 20px 50px 0px;
 }
 
-.text-content-right {
-	display: flow-root;
-	min-width: 450px;
+.text-content {
+	display: block;
+	min-width: 400px;
 }
 
 .content-right {
-		float: right;
+	float: right;
 	padding: 50px 0px 50px 20px;
 }
 
-.text-content-right {
-	display: flow-root;
-	min-width: 450px;
-}
-.text-content-left h1 {
+.splach-left h1 {
 	text-align: right;
 }
 
