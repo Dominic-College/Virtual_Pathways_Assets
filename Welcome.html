@@ -2,13 +2,42 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Main Splash Content</title>
 		<link rel="stylesheet" href="dom-pathways.css">
 </head>
+<style> #top-btn {display: none}</style>
+	
 <body>
-	<div id="guts">
+	
+<script>
+//Get the button
+var mybutton = document.getElementById("top-btn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+	
+	<button onClick="topFunction()" id="top-btn" title="Go to Top">Top</button>
+	
 	<section class="splash-content">
+		
 <!-- Opening Article -->
+		
 		<article id="A1" class="splash-article">
 			<div class="content-left">
 				<video class="video-window" controls>
@@ -22,7 +51,9 @@
 				<p id="beth">Ms Beth Giligan <br>Dominic College Principle</p>
 			</div>
 		</article>
-<!-- Making Elective Choices -->		
+		
+<!-- Making Elective Choices -->
+		
 		<article id="A2"  class="splash-article">
 			<div class="content-right">
 				<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRde4O7B1tcQcGEC5DIVUj9DrVUU1A4PJ3BJbHEUsWYbyHRguK4fWqanktmHj4Gjg/embed?start=false&loop=true&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -33,7 +64,9 @@
 				<p>Families are encouraged to consult the Subject Handbook which is a available on the college Website or via the link below </p>
 			</div>
 		</article>
-<!-- 2021 Subject Handbook -->		
+		
+<!-- 2021 Subject Handbook -->
+		
 		<article id="A3"  class="splash-article">
 			<div class="content-left">
 				<a href="https://s3-ap-southeast-2.amazonaws.com/digistorm-websites/dominic/content/Our-Programs/Subject-handbook/subject-handbook-2020-REV-DEC-2019.pdf?mtime=20191202143141">
@@ -44,7 +77,9 @@
 				<p>You will find the following information:<br>- How to choose electives <br>- Subject Descriptors <br>- Electives available at specific year levels 	<br>- Pre-requisites <br>- 1 year courses</p>
 			</div>
 		</article>
-<!-- Current Students Leader’s Choice -->		
+		
+<!-- Current Students Leader’s Choice -->
+		
 		<article id="A4"  class="splash-article">
 			<div class="content-right">
 				<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRde4O7B1tcQcGEC5DIVUj9DrVUU1A4PJ3BJbHEUsWYbyHRguK4fWqanktmHj4Gjg/embed?start=false&loop=true&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -55,7 +90,9 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum praesentium et pariatur in, ullam quod quam at, repellat nihil cupiditate veritatis voluptas culpa porro esse officia commodi maxime, sed necessitatibus. </p>
 			</div>
 		</article>
-<!-- How To Submit Web Preferences -->		
+		
+<!-- How To Submit Web Preferences -->
+		
 		<article id="A5"  class="splash-article">
 			<div class="content-left">
 				<video class="video-window" controls>
@@ -68,7 +105,9 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum praesentium et pariatur in, ullam quod quam at, repellat nihil cupiditate veritatis voluptas culpa porro esse officia commodi maxime, sed necessitatibus. </p>
 			</div>
 		</article>
-<!-- Link To GYC 2021 Course Handbook -->		
+		
+<!-- Link To GYC 2021 Course Handbook -->
+		
 		<article id="A6"  class="splash-article">
 			<div class="content-right">
 				<a href="https://www.gyc.tas.edu.au/wp-content/uploads/2019/08/GYC-Handbook-FINAL-2020-Web.pdf">
@@ -81,8 +120,6 @@
 			</div>
 		</article>		
 	</section>
-	</div>
-	
 	
 </body>
 </html>
