@@ -151,6 +151,9 @@ p {
 .splash-content {
 	display: flex;
 	flex-direction: column;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .splash-article {
