@@ -284,6 +284,10 @@ p {
 	border: 5px ridge #857345;
 }
 
+.elective-flex a {
+	text-decoration: none;
+}
+
 .article-flex {
 	display: flex;
 	justify-content: center;
