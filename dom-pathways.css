@@ -194,7 +194,6 @@ p {
 	margin-right: auto;
 	margin-bottom: 80px;
 	text-align: center;
-	justify-content: center;
 	border-top: 5px ridge #857345;
 }
 
@@ -219,4 +218,34 @@ p {
 	transform: scale(0.96);
 }
 
+.subject-content {
+	display: block;
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 80px;
+	border-top: 5px ridge #857345;
+}
+
+.subject-content h1 {
+	margin-bottom: 5px;
+}
+
+.article-flex {
+	display: flex;
+	justify-content: center;
+	min-height: 450px;
+}
+
+.article-flex > div {
+	text-align: center;
+	max-width: 480px;
+	padding: 20px;
+}
+
+.article-flex p {
+	font-style: italic;
+	height: 60px;
+	padding: 0px 50px;
+}
 
