@@ -11,7 +11,7 @@ p {
 	color: white;
 	font-weight: 100;
 	font-style: normal;
-	font-size: 1.4em;
+	font-size: 1.3em;
 }
 
 .heading {
@@ -25,7 +25,7 @@ p {
 
 .h-gold {
 	color: #a2863d;
-	font-size: 2.2em;
+	font-size: 2em;
 	text-align: center;
 }
 
@@ -46,17 +46,76 @@ p {
 	z-index: 1;
 }
 
+/* Navbar Styls */
 
-.main {
-	display: block;
-	margin-top: 110px;
+.navbar {
+	display: flex;
+	position: fixed;
+	right: 50px;
+	top: 30px;
+	cursor: pointer;
+	z-index: 1;
 }
+
+.nav-btn-txt {
+	float: left;
+	background-color: #89A9E2;
+	border-radius: 10px;
+	padding: 6px 10px;
+	box-shadow: 3px 3px 8px 0px rgba(0,0,0,1);
+	font-family: Calibri, Verdana, sans-serif;
+	font-weight: 400;
+	font-size: 0.8em;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+
+.subnav .subnav-btn {
+	border: none;
+}
+
+.navbar a:hover, .subnav:hover .subnav-btn {
+	background-color: #B39F6C;
+}
+
+.subnav-content {
+	display: none;
+	position: absolute;
+	top: 10px;
+	background-color: #89A9E2;
+	text-align: left;
+	width: 150px;
+	box-shadow: 3px 3px 8px 0px rgba(0,0,0,1);
+	z-index: 2;
+	padding-bottom: 5px;
+}
+
+.subnav-content a{
+	display: block;
+	border-bottom: 1px solid #555;
+	font-family: Calibri, Verdana, sans-serif;
+	font-weight: 400;
+	font-size: 0.8em;
+	color: black;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+.subnav-content a:last-child {
+	border-bottom: none;
+}
+
+.subnav:hover .subnav-content {
+	display: block;
+}
+
+/* Splash Page Content Styles */
 
 .splash-frame {
 	display: block;
 	margin-top: 110px;
 	width: 100%;
-/*	height: calc(var(--screenH) - 110px);*/
 	height: calc(100VH - 110px);
 }
 
@@ -118,4 +177,46 @@ p {
 	border: none;
 	padding-right: 20px;
 }
+
+/* Faculty Content Styles */
+
+.faculty-section {
+	display: block;
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.article-content {
+	display: block;
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 80px;
+	text-align: center;
+	justify-content: center;
+	border-top: 5px ridge #857345;
+}
+
+.article-content h1 {
+	margin-bottom: 5px;
+}
+
+#itelic-centre {
+	font-style: italic;
+	text-align: center;
+	font-size: 1.7em;
+	font-weight: 200;
+	color: #89A9E2;
+	text-shadow: 3px 3px 8px #000000;
+}
+
+.path-btn {
+	padding: 5px 10px;
+}
+.path-btn:hover {
+	transition: transform 0.3s;
+	transform: scale(0.96);
+}
+
 
