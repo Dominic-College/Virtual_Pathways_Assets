@@ -207,6 +207,72 @@ p {
 	padding-right: 20px;
 }
 
+.splash-table {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px #8B1C40;
+    border-style: ridge;
+    border-collapse: collapse;
+    
+}
+
+.splash-table td {
+    padding: 5px;
+    font-family: "Calibri Light", Verdana, sans-serif;
+	color: white;
+	font-style: normal;
+	font-size: 1.2em;
+    text-decoration: none;
+    text-shadow: 3px 3px 8px #000000;
+}
+
+.nwp {
+    white-space: nowrap;
+}
+
+.splash-table a {
+    text-decoration: none;
+    color: white;
+}
+.splash-table a:hover {
+    color: chartreuse;
+}
+
+.tbl-th-1 {
+    border: 5px ridge #8B1C40;
+    border-collapse: collapse;
+    padding: 5px;
+	font-family: trajan-pro-3, serif;
+	font-style: normal;
+	font-size: 1.5em;
+    color: white;
+	text-shadow: 3px 3px 8px #000000;
+}
+
+.tbl-th-2 {
+    border: 5px ridge #8B1C40;
+    border-collapse: collapse;
+    padding: 5px;
+	font-family: trajan-pro-3, serif;
+	font-style: normal;
+	font-size: 1em;
+    color: white;
+	text-shadow: 3px 3px 8px #000000;
+}
+
+.lt-brd {
+    border: 1px solid #8B1C40;
+    border-collapse: collapse;
+}
+
+.bd-right {
+    border: 1px solid #8B1C40;
+    border-right: 5px ridge #8B1C40;
+    border-collapse: collapse;
+}
+
 /* Faculty Content Styles */
 
 .faculty-section {
