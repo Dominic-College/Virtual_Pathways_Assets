@@ -9,31 +9,6 @@
 <style> #top-btn {display: none}</style>
 	
 <body>
-	
-<script>
-//Get the button
-var mybutton = document.getElementById("top-btn");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
-	
-	<button onClick="topFunction()" id="top-btn" title="Go to Top">Top</button>
-	
 	<section class="splash-content">
 		
 <!-- Opening Article -->
@@ -68,7 +43,7 @@ function topFunction() {
 		
 		<article id="A3"  class="splash-article">
 			<div class="content-left">
-				<a href="https://www.dominic.tas.edu.au/programs/years-7-10">
+				<a href="https://www.dominic.tas.edu.au/programs/years-7-10" target="_blank">
 				<img id="subject-hb" src="Images/Screenshot_2021-Subject-Handbook.png" alt=""></a>
 			</div>
 			<div class="text-content">
@@ -221,7 +196,7 @@ function topFunction() {
 			<div class="text-content splash-left">
 				<h1 class="heading">Link To GYC 2021 Course Information Page</h1>
 				<p>You can access GYC’s 2021 Subject Handbook through their enrolment page to find out subjects and pathways that are available post Year 10.</p>
-                <p>Scroll down towards the bottom of the page and click on 'Course Handbook'.</p>
+                <p>Click on the handbook on the right, then Scroll down and click on '+ Course Handbook'.</p>
 			</div>
 		</article>		
 	</section>
