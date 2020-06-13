@@ -142,14 +142,14 @@ p {
   background-color: #555;
 }
 
-/* Splash Page Content Styles */
-
 .splash-frame {
 	display: block;
 	margin-top: 110px;
 	width: 100%;
 	height: calc(100VH - 110px);
 }
+
+/* Splash Page Content Styles */
 
 .video-window {
 	width: 450px;
@@ -170,9 +170,14 @@ p {
 	margin: 20px;
 }
 
+.splash-article h1 {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
 .content-left {
 	float: left;
-	padding-top: 40px;
+	padding-top: 25px;
 	padding-right: 20px;
 }
 
@@ -181,18 +186,10 @@ p {
 	min-width: 400px;
 }
 
-.text-content h1 {
-	margin-bottom: 5px;
-}
-
 .content-right {
 	float: right;
-	padding-top: 40px;
+	padding-top: 25px;
 	padding-left: 20px;
-}
-
-.splash-left h1 {
-	text-align: right;
 }
 
 #beth {
