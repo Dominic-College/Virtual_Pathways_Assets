@@ -183,7 +183,7 @@ p {
 
 .text-content {
 	display: flow-root;
-	min-width: 400px;
+	min-width: 100px;
 }
 
 .content-right {
