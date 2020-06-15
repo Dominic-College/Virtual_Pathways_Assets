@@ -193,7 +193,10 @@ p {
 }
 
 #beth {
-	font-style: italic;
+	font-style: normal;
+    font-size: 1.8em;
+    font-weight: 400;
+    margin-bottom: 5px;
 }
 
 #gyc {
