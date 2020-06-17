@@ -8,7 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
-            $("#pdf-new").on("click", function(){
+            $(".pdf-new").on("click", function(){
                 $(this).dispatchEvent(new MouseEvent("click", {ctrlKey: true}));
             });
         });
@@ -57,7 +57,7 @@
                 <h1 class="heading">2021 Subject Handbook</h1>
             </div>
 			<div class="content-left">
-				<a id="pdf-new" href="Dominic_Subject_Handbook_Final2-GLS-23-002.pdf" target="_blank" type="pdf"> <!-- Local PDF -->
+				<a class="pdf-new" href="Dominic_Subject_Handbook_Final2-GLS-23-002.pdf" target="_blank" type="pdf"> <!-- Local PDF -->
 				<img id="subject-hb" src="Images/Screenshot_2021-Subject-Handbook.png" alt=""></a>
 			</div>
 			<div class="text-content">
