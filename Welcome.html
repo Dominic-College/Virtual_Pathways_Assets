@@ -8,9 +8,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
-            $("#subject-hb").click(function(){
-                $("#pdf-new").dispatchEvent(new MouseEvent("click", {ctrlKey: true}));
-            })
+            $("#pdf-new").on("click", function(){
+                $(this).dispatchEvent(new MouseEvent("click", {ctrlKey: true}));
+            });
         });
     </script>
 </head>
