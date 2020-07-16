@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+    text-align: center;
+}h1 {
+	font-size: 85px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: capitalize;
+	color: #FFF;
+	font-family: "Bahnschrift SemiCondensed";
+	text-decoration: underline;
+}
+body {
+	color: rgb(255,255,255);
+	background-color: rgb(30,52,93);
+	font-family: "Adobe Garamond Pro";
+	width: 80%;
+	right: auto;
+	bottom: auto;
+	left: auto;
+	height: auto;
+	position: relative;
+	top: auto;
+	border-right-width: medium;
+	border-bottom-width: medium;
+	border-right-style: none;
+	border-bottom-style: none;
+	display: inline-block;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: left;
+	
+}
+strong {
+	font-size: 24px;
+	font-weight: bold;
+	color: rgb(255,255,255);
+}
+div {
+	text-align: center;
+	white-space: normal;
+	border-right-width: medium;
+	border-right-style: solid;
+	border-right-color: rgb(30,52,93);
+}
+h4 {
+	font-size: 30px;
+	text-decoration: underline;
+	font-weight: bold;
+	font-family: "Bahnschrift SemiCondensed";
+}
+h2 {
+	line-height: 35px;
+	
+}
+h3 {
+	font-size: 69px;
+	text-decoration: underline;
+	color: rgb(255,255,255);
+	font-weight: bold;
+}
