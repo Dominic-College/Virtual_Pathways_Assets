@@ -131,6 +131,12 @@ p {
 	box-shadow: 3px 3px 8px 0px rgba(0,0,0,1);
 }
 
+iframe {
+	border: none;
+	height: 317px;
+	width: 500px;
+	box-shadow: 3px 3px 8px 0px rgba(0,0,0,1);
+}
 .content-drop-shadow {
 	box-shadow: 3px 3px 8px 0px rgba(0,0,0,1);
 }
