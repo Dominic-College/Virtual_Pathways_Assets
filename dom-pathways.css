@@ -128,6 +128,11 @@ p {
 
 .video-window {
 	width: 450px;
+	box-shadow: 3px 3px 8px 0px rgba(0,0,0,1);
+}
+
+.content-drop-shadow {
+	box-shadow: 3px 3px 8px 0px rgba(0,0,0,1);
 }
 
 .splash-content {
@@ -153,7 +158,7 @@ p {
 .content-left {
 	float: left;
 	padding-top: 25px;
-	padding-right: 20px;
+	padding-right: 40px;
 }
 
 .text-content {
@@ -164,7 +169,7 @@ p {
 .content-right {
 	float: right;
 	padding-top: 25px;
-	padding-left: 20px;
+	padding-left: 40px;
 }
 
 #beth {
@@ -178,14 +183,12 @@ p {
 	float: right;
 	height: 300px;
 	border: none;
-	padding-left: 20px;
 }
 
 #subject-hb {
 	float: left;
 	height: 300px;
 	border: none;
-	padding-right: 20px;
 }
 
 .splash-table {
@@ -283,6 +286,15 @@ h3 {
     text-decoration: underline;
 	text-shadow: 3px 3px 8px #000000;
     
+}
+
+
+#highlight {
+	color: red;
+	font-weight: 800;
+	font-style: italic;
+	font-size: 1.3em;
+	text-shadow: 3px 3px 8px #000000;
 }
 
 #itelic-centre {
